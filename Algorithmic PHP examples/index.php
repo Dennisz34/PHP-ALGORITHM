@@ -26,11 +26,6 @@
   </div>
 
   <?php
-
-
-
-
-
                if(isset($_POST["kontrol"]))
                {
                   #code....
@@ -97,10 +92,9 @@
                                 echo '<br/> Notunuz:<strong><font color="green"> AA -> Tebrikler</font></strong>';
                               }
 							  
-                         	}
-							 
+                           }	 
                         }
-					  else
+			else
                       {
                         #code....
                         die('<br/> <font color="red">Geçerli bir not girin.</font>');
